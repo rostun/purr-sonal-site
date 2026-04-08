@@ -8,6 +8,6 @@ export default function Icon() {
 			headers: {
 				'Content-Type': 'image/svg+xml',
 			},
-		}
+		},
 	);
 }
