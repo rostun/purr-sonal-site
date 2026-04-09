@@ -95,15 +95,16 @@ export default function Home() {
 								<CardHeader>
 									<CardTitle>Next.js Migration</CardTitle>
 									<CardDescription>
-										Migrating a large production page to a modern
-										Next.js stack.
+										Leading the migration of a major production page
+										to a modern Next.js stack.
 									</CardDescription>
 								</CardHeader>
 								<CardContent className="space-y-4">
 									<p className="text-sm leading-6 text-stone-600">
-										App Router, TypeScript, Tailwind, performance
-										improvements, and a more maintainable frontend
-										foundation.
+										Focused on performance, maintainability, and
+										accessibility while moving from older frontend
+										patterns to App Router, TypeScript, and a more
+										scalable UI foundation.
 									</p>
 									<div className="flex flex-wrap gap-2">
 										<Badge variant="secondary">Next.js</Badge>
@@ -113,17 +114,19 @@ export default function Home() {
 								</CardContent>
 							</Card>
 
-							<Card className="border-stone-200 bg-white shadow-sm transition-shadow hover:shadow-md">
+							<Card className="border-stone-200/80 bg-white shadow-sm transition-shadow hover:shadow-md">
 								<CardHeader>
 									<CardTitle>Colorful Life</CardTitle>
 									<CardDescription>
-										A playful indie game project built in MonoGame.
+										A small indie game project built in MonoGame.
 									</CardDescription>
 								</CardHeader>
 								<CardContent className="space-y-4">
 									<p className="text-sm leading-6 text-stone-600">
-										Focused on clean architecture, progression
-										systems, and a geometric visual style.
+										An experiment in clean game architecture,
+										progression systems, and playful worldbuilding,
+										with an emphasis on building the project in small,
+										intentional steps.
 									</p>
 									<div className="flex flex-wrap gap-2">
 										<Badge variant="secondary">MonoGame</Badge>
@@ -133,18 +136,19 @@ export default function Home() {
 								</CardContent>
 							</Card>
 
-							<Card className="border-stone-200 bg-white shadow-sm transition-shadow hover:shadow-md">
+							<Card className="border-stone-200/80 bg-white shadow-sm transition-shadow hover:shadow-md">
 								<CardHeader>
 									<CardTitle>purr-sonal-site</CardTitle>
 									<CardDescription>
-										A personal site that is also a deployment
+										A personal site that also doubles as a deployment
 										experiment.
 									</CardDescription>
 								</CardHeader>
 								<CardContent className="space-y-4">
 									<p className="text-sm leading-6 text-stone-600">
-										Built once, deployed twice, and used to compare
-										platform behavior across Vercel and Cloudflare.
+										Built as one Next.js app deployed to both Vercel
+										and Cloudflare to compare platform tradeoffs,
+										deployment workflows, and runtime behavior.
 									</p>
 									<div className="flex flex-wrap gap-2">
 										<Badge variant="secondary">Next.js</Badge>
