@@ -195,6 +195,10 @@ export default function Home() {
 						>
 							Links
 						</h2>
+						<p className="max-w-2xl text-base leading-7 text-stone-600">
+							A few places to find my work, background, and the more
+							official version of me.
+						</p>
 						<div className="flex flex-wrap gap-3">
 							<Button
 								asChild
@@ -249,7 +253,7 @@ export default function Home() {
 					</section>
 
 					<footer className="border-t border-stone-200 pt-6 text-sm text-stone-500">
-						Built once, deployed twice.
+						<p>Built once, deployed twice.</p>
 					</footer>
 				</div>
 			</div>
