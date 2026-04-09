@@ -3370,6 +3370,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cats-are-love-cats-are-life@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "cats-are-love-cats-are-life@npm:1.0.1"
+  checksum: 10c0/16316271b70a80e405db6c91270bd9c0537ad632ca2cdd7452c71a42064b3305fa0af8e3d63352366ea1ea47d5315d0f2cb677903448a26ba220e77c73060a2c
+  languageName: node
+  linkType: hard
+
 "chalk@npm:^4.0.0":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
@@ -6584,6 +6591,7 @@ __metadata:
     "@types/node": "npm:^20"
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
+    cats-are-love-cats-are-life: "npm:^1.0.1"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     eslint: "npm:^9"
