@@ -172,15 +172,16 @@ export default function Home() {
 						<div className="max-w-3xl space-y-4 text-base leading-7 text-stone-700">
 							<p>
 								I’m a Staff Software Engineer with a frontend and
-								fullstack background. I care a lot about usability,
-								performance, accessibility, and building systems that
-								make sense both for users and for the people maintaining
-								them.
+								fullstack background, and I tend to care a lot about the
+								parts of software people actually feel: usability,
+								performance, accessibility, and whether a product feels
+								thoughtful to use.
 							</p>
 							<p>
-								I tend to prefer practical engineering over hype, and I
-								like side projects that are a little thoughtful, a
-								little playful, and actually teach me something.
+								I like practical engineering, clean UI, and systems that
+								make sense without being overcomplicated. I’m also drawn
+								to side projects that are a little playful, a little
+								polished, and useful for learning something new.
 							</p>
 						</div>
 					</section>
