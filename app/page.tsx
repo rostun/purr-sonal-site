@@ -13,7 +13,7 @@ export default function Home() {
 	return (
 		<main className="min-h-screen bg-stone-50 text-stone-900">
 			<div className="mx-auto max-w-5xl px-6 py-16 md:px-10 md:py-24">
-				<div className="space-y-24">
+				<div className="space-y-28">
 					<section aria-labelledby="hero-heading" className="space-y-6">
 						<div className="space-y-4">
 							<Badge
@@ -26,12 +26,12 @@ export default function Home() {
 							<div className="space-y-4">
 								<h1
 									id="hero-heading"
-									className="text-4xl font-semibold tracking-tight md:text-6xl"
+									className="text-5xl font-semibold tracking-tight text-stone-950 md:text-7xl"
 								>
 									Rosa Tung
 								</h1>
 
-								<p className="max-w-2xl text-lg leading-8 text-stone-700">
+								<p className="max-w-2xl text-lg leading-8 text-stone-700 md:text-xl">
 									I build thoughtful frontend and fullstack products
 									with a focus on performance, usability,
 									accessibility, and actual pragmatism.
@@ -50,7 +50,7 @@ export default function Home() {
 							</Button>
 							<Button
 								variant="outline"
-								className="border-stone-300 bg-transparent hover:bg-stone-100"
+								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
 							>
 								Resume
 							</Button>
@@ -73,7 +73,7 @@ export default function Home() {
 						</div>
 
 						<div className="grid gap-6 md:grid-cols-3">
-							<Card className="border-stone-200 bg-white shadow-sm">
+							<Card className="border-stone-200/80 bg-white shadow-sm transition-shadow hover:shadow-md">
 								<CardHeader>
 									<CardTitle>Next.js Migration</CardTitle>
 									<CardDescription>
@@ -95,7 +95,7 @@ export default function Home() {
 								</CardContent>
 							</Card>
 
-							<Card className="border-stone-200 bg-white shadow-sm">
+							<Card className="border-stone-200 bg-white shadow-sm transition-shadow hover:shadow-md">
 								<CardHeader>
 									<CardTitle>Colorful Life</CardTitle>
 									<CardDescription>
@@ -115,7 +115,7 @@ export default function Home() {
 								</CardContent>
 							</Card>
 
-							<Card className="border-stone-200 bg-white shadow-sm">
+							<Card className="border-stone-200 bg-white shadow-sm transition-shadow hover:shadow-md">
 								<CardHeader>
 									<CardTitle>purr-sonal-site</CardTitle>
 									<CardDescription>
@@ -173,14 +173,34 @@ export default function Home() {
 							Links
 						</h2>
 						<div className="flex flex-wrap gap-3">
-							<Button variant="outline">GitHub</Button>
-							<Button variant="outline">LinkedIn</Button>
-							<Button variant="outline">Resume</Button>
-							<Button variant="outline">Email</Button>
+							<Button
+								variant="outline"
+								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
+							>
+								GitHub
+							</Button>
+							<Button
+								variant="outline"
+								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
+							>
+								LinkedIn
+							</Button>
+							<Button
+								variant="outline"
+								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
+							>
+								Resume
+							</Button>
+							<Button
+								variant="outline"
+								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
+							>
+								Email
+							</Button>
 						</div>
 					</section>
 
-					<footer className="pt-2 text-sm text-stone-500">
+					<footer className="border-t border-stone-200 pt-6 text-sm text-stone-500">
 						Built once, deployed twice.
 					</footer>
 				</div>
