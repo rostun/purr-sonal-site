@@ -48,8 +48,8 @@ export default function Home() {
 
 										<p className="max-w-2xl text-base leading-7 text-stone-600">
 											This site is also a small side project: one
-											Next.js app, deployed to both Vercel and
-											Cloudflare.
+											Next.js app deployed to both Vercel and
+											Cloudflare to compare vibez.
 										</p>
 									</div>
 								</div>
@@ -146,10 +146,10 @@ export default function Home() {
 									</CardHeader>
 									<CardContent className="space-y-4">
 										<p className="text-sm leading-6 text-stone-600">
-											An experiment in clean game architecture,
-											progression systems, and playful worldbuilding,
-											with an emphasis on building the project in
-											small, intentional steps.
+											Bring the color back into you life! Progression
+											systems, playful worldbuilding, and a little
+											exploration game about mental health and
+											finding joy in the small things.
 										</p>
 										<div className="flex flex-wrap gap-2">
 											<Badge variant="secondary">MonoGame</Badge>
@@ -161,23 +161,32 @@ export default function Home() {
 
 								<Card className="border-stone-200/80 bg-white shadow-sm transition-shadow hover:shadow-md">
 									<CardHeader>
-										<CardTitle>purr-sonal-site</CardTitle>
+										<CardTitle>Cats Are Love Cats Are Life</CardTitle>
 										<CardDescription>
-											A personal site that also doubles as a
-											deployment experiment.
+											A fun npm package for adding playful cat
+											interactions to web apps.
 										</CardDescription>
 									</CardHeader>
 									<CardContent className="space-y-4">
 										<p className="text-sm leading-6 text-stone-600">
-											Built as one Next.js app deployed to both
-											Vercel and Cloudflare to compare platform
-											tradeoffs, deployment workflows, and runtime
-											behavior.
+											A deliberately lightweight library offering
+											small delightful cat moments. Mostly built for
+											fun...meow!
 										</p>
 										<div className="flex flex-wrap gap-2">
-											<Badge variant="secondary">Next.js</Badge>
-											<Badge variant="secondary">Vercel</Badge>
-											<Badge variant="secondary">Cloudflare</Badge>
+											<Badge variant="secondary">Typescript</Badge>
+											<Badge variant="secondary">UI</Badge>
+											<Badge variant="secondary">Cats</Badge>
+										</div>
+										<div>
+											<Link
+												href="https://www.npmjs.com/package/cats-are-love-cats-are-life"
+												target="_blank"
+												rel="noreferrer"
+												className="text-sm font-medium text-rose-600 hover:underline"
+											>
+												View on npm →
+											</Link>
 										</div>
 									</CardContent>
 								</Card>
