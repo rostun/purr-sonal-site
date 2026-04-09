@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -45,14 +46,31 @@ export default function Home() {
 						</div>
 
 						<div className="flex flex-wrap gap-3">
-							<Button className="bg-stone-900 text-stone-50 hover:bg-stone-800">
-								View GitHub
-							</Button>
 							<Button
+								asChild
+								className="bg-stone-900 text-stone-50 hover:bg-stone-800"
+							>
+								<Link
+									href="https://github.com/rostun"
+									target="_blank"
+									rel="noreferrer"
+								>
+									View GitHub
+								</Link>
+							</Button>
+
+							<Button
+								asChild
 								variant="outline"
 								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
 							>
-								Resume
+								<Link
+									href="/resume.pdf"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Resume
+								</Link>
 							</Button>
 						</div>
 					</section>
@@ -174,28 +192,53 @@ export default function Home() {
 						</h2>
 						<div className="flex flex-wrap gap-3">
 							<Button
+								asChild
 								variant="outline"
 								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
 							>
-								GitHub
+								<Link
+									href="https://github.com/rostun"
+									target="_blank"
+									rel="noreferrer"
+								>
+									GitHub
+								</Link>
 							</Button>
+
 							<Button
+								asChild
 								variant="outline"
 								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
 							>
-								LinkedIn
+								<Link
+									href="https://www.linkedin.com/in/rosa-tung-4b484958/"
+									target="_blank"
+									rel="noreferrer"
+								>
+									LinkedIn
+								</Link>
 							</Button>
+
 							<Button
+								asChild
 								variant="outline"
 								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
 							>
-								Resume
+								<Link
+									href="/resume.pdf"
+									target="_blank"
+									rel="noreferrer"
+								>
+									Resume
+								</Link>
 							</Button>
+
 							<Button
+								asChild
 								variant="outline"
 								className="border-stone-300 bg-white text-stone-900 hover:bg-stone-100"
 							>
-								Email
+								<Link href="mailto:rosa.m.tung@gmail.com">Email</Link>
 							</Button>
 						</div>
 					</section>
