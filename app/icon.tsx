@@ -1,4 +1,10 @@
-// src/app/icon.tsx
+export const size = {
+	width: 32,
+	height: 32,
+};
+
+export const contentType = 'image/svg+xml';
+
 export default function Icon() {
 	return new Response(
 		`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -8,6 +14,6 @@ export default function Icon() {
 			headers: {
 				'Content-Type': 'image/svg+xml',
 			},
-		},
+		}
 	);
 }
