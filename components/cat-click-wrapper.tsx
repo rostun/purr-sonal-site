@@ -6,7 +6,7 @@ export function CatClickWrapper({ children }: { children: React.ReactNode }) {
 	return (
 		<div
 			onClick={(e) => {
-				kittyPop(e, {
+				kittyPop(e.nativeEvent, {
 					emoji: '🐈',
 					fontSize: '2rem',
 					durationMs: 800,
