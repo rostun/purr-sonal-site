@@ -42,8 +42,7 @@ export default function Home() {
 										<p className="max-w-2xl text-lg leading-8 text-stone-700 md:text-xl">
 											I build thoughtful frontend and fullstack
 											products with a focus on performance,
-											usability, accessibility, and actual
-											pragmatism.
+											usability, accessibility, and pragmatism.
 										</p>
 
 										<p className="max-w-2xl text-base leading-7 text-stone-600">
@@ -64,7 +63,7 @@ export default function Home() {
 											target="_blank"
 											rel="noreferrer"
 										>
-											View GitHub
+											GitHub
 										</Link>
 									</Button>
 
@@ -118,8 +117,8 @@ export default function Home() {
 									<CardHeader>
 										<CardTitle>Next.js Migration</CardTitle>
 										<CardDescription>
-											Leading the migration of a major production
-											page to a modern Next.js stack.
+											Led the migration of a major production page to
+											a modern Next.js stack.
 										</CardDescription>
 									</CardHeader>
 									<CardContent className="space-y-4">
@@ -215,7 +214,7 @@ export default function Home() {
 								</p>
 								<p>
 									I like practical engineering, clean UI, and systems
-									that make sense without being overcomplicated. I’m
+									that make sense without unnecessary complexity. I’m
 									also drawn to side projects that are a little
 									playful, a little polished, and useful for learning
 									something new.
