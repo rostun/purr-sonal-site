@@ -9,7 +9,7 @@ export function CatClickWrapper({ children }: { children: React.ReactNode }) {
 				const _clientX = e.clientX;
 				const _clientY = e.clientY;
 				kittyPop(
-					{ clientX: _clientX, clientY: _clientY },
+					{ x: _clientX, y: _clientY },
 					{
 						emoji: '🐈',
 						fontSize: '2rem',
