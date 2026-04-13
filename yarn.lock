@@ -3370,10 +3370,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cats-are-love-cats-are-life@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "cats-are-love-cats-are-life@npm:1.1.0"
-  checksum: 10c0/9e4b17c2d222e729a627ee886683961ed4e8cd80c9ae3b3340b721ea97fbfd88c853d06aeb40fa8ce9f329251902c974f6bb887e056cc433d77c3becb2306ac0
+"cats-are-love-cats-are-life@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "cats-are-love-cats-are-life@npm:1.2.0"
+  checksum: 10c0/29279845c5bcc7dd6cdc1bc0545c371da5902c0d1ed1896be3346ddcb7e8a38d41288b743a3b11c506160db25fabe9ccf8bc9e1b7b311f4958ddf7379b86e2e3
   languageName: node
   linkType: hard
 
@@ -6591,7 +6591,7 @@ __metadata:
     "@types/node": "npm:^20"
     "@types/react": "npm:^19"
     "@types/react-dom": "npm:^19"
-    cats-are-love-cats-are-life: "npm:^1.1.0"
+    cats-are-love-cats-are-life: "npm:^1.2.0"
     class-variance-authority: "npm:^0.7.1"
     clsx: "npm:^2.1.1"
     eslint: "npm:^9"
